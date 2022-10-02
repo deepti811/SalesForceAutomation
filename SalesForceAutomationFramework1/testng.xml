@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+  <test  name="Regression">
+  
+  <parameter name="browsername" value="firefox"/>
+     <classes>
+      <class name="com.firebase.test.tests.AutomationScripts">
+      <methods>
+       <exclude name="TestID_1LoginErrorMessage()"/>
+        <exclude name="TestID_2LoginToSalesForce()"/>
+        <exclude name="TestID_3CheckRemeberMe()"/>
+        <exclude name="TestID_4AForgotPassword()"/>
+        <exclude name="TestID_4BForgotPassword()"/>
+        <exclude name="TestID_5Usermenudropdown()"/>
+      	<exclude name=  "TestID_6MyProfileFromUsermenudropdown()"/>
+      	 <exclude name=  "TestID_7MySettingFromUsermenudropdown()"/>
+      	 <exclude name="TestID_8DeveloperConsoleFromUsermenudropdown()"/>
+      	<exclude name="TestID_9LogoutFromUsermenudropdown()"/>
+      	<exclude name="TestID_10CreateAccount()"/>
+      	<exclude name="TestID_11Createnewview()"/>
+      	<exclude name="TestID_12Editview()"/>
+      	<exclude name="TestID_13MergeAccounts()"/>
+      	<exclude name="TestID_14CreateAccountReport()"/>
+      	<exclude name="TestID_15opportunitiesDropdown()"/>
+      	<exclude name="TestID_16createanewOpty()"/>
+      	<exclude name="TestID_17Test_Opportunity_Pipeline_Report()"/>
+      	<exclude name="TestID_18Test_Stuck_Opportunity_Report()"/>
+      	<exclude name="TestID_19Test_quarterly_Summary_Report()"/>
+      	<exclude name="TestID_20leads_Tab()"/>
+      	<exclude name="TestID_21leads_Select_View()"/>
+      	<exclude name="TestID_22default_View()"/>
+      	<exclude name="TestID_23Todays_Leads()"/>
+      	<exclude name="TestID_24new_Button_On_Lead()"/>
+      	<exclude name="TestID_25Create_new_contact()"/>
+      	<exclude name="TestID_26Create_new_View_contact()"/>
+      	<exclude name="TestID_27Check_contact_Page()"/>
+      	<exclude name="TestID_28Check_My_contact_view()"/>
+      	<exclude name="TestID_29View_Contact_contact_Page()"/>
+      	<exclude name="TestID_30Check_error()"/>
+      	<exclude name="TestID_31Check_Cancel()"/>
+      	<exclude name="TestID_32Check_SaveandNew_button()"/>
+      	<exclude name="TestID_33Check_SaveandNew_button()"/>
+      	<exclude name="TestID_34verify_Edited_Lastname()"/> 
+      	<exclude name="TestID_35verify_Tab_Customization()"/> 
+      	<exclude name="TestID_36blocking_An_Event()"/>
+      	<include name="TestID_37blocking_An_Event_With_Weekly()"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
